@@ -1,0 +1,23 @@
+{
+  "name": "Bad Quora",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "Removes the annoying 'You must be signed in to use Quora.' message, by appending ?share=1 to the URL",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://quora.com/*",
+    "*://www.quora.com/*"
+  ],
+  "background": { 
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": [
+      "*://quora.com/*",
+      "*://www.quora.com/*"
+    ],
+    "css": ["content.css"],
+    "run_at": "document_end"
+  }]
+}

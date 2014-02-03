@@ -1,8 +1,8 @@
 #Adds Tracking Code
 
-#Adds an easy tracking code for the NPR Food folks posting to Pinterest:
+Adds an easy tracking code for the NPR Food folks posting to Pinterest:
 
-#utm_medium=pinterest&utm_source=nprfood&utm_campaign=arts
+utm_medium=pinterest&utm_source=nprfood&utm_campaign=arts
 
 ##MIT Open Source License
 

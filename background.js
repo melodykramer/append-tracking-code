@@ -9,10 +9,10 @@ chrome.webRequest.onBeforeRequest.addListener(function(info) {
   // }
 
   return {
-    redirectUrl: url + '?share=1'
+    redirectUrl: url + 'utm_medium=pinterest&utm_source=nprfood&utm_campaign=arts'
   };
 
 }, {
-  urls: ['*://quora.com/*', '*://www.quora.com/*'],
+  urls: ['*://npr.org/*', '*://www.npr.org/*'],
   types: ['main_frame']
 }, ['blocking']);

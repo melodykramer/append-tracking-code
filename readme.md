@@ -1,10 +1,8 @@
-#Bad Quora
+#Adds Tracking Code
 
-Removes the annoying "You must be signed in to use Quora" message.
+#Adds an easy tracking code for the NPR Food folks posting to Pinterest:
 
-Quora recently added a way to view content without logging in by appending ?share=1 to the url. This extensions appends that to every Quora url you visit.
-
-See blog post about it [here](http://blog.quora.com/Making-Sharing-Better).
+#utm_medium=pinterest&utm_source=nprfood&utm_campaign=arts
 
 ##MIT Open Source License
 

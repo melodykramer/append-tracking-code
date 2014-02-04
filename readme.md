@@ -1,8 +1,7 @@
 #Adds Tracking Code
 
-Adds an easy tracking code for the NPR Food folks posting to Pinterest:
+Automatically appends tracking codes to the end of URLs and automatically copies code to clipboard:
 
-utm_medium=pinterest&utm_source=nprfood&utm_campaign=arts
 
 ##MIT Open Source License
 

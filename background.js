@@ -4,10 +4,10 @@ chrome.webRequest.onBeforeRequest.addListener(function(info) {
 
 
   return {
-    redirectUrl: url + '&utm_medium=pinterest&utm_source=nprfood&utm_campaign=arts'
+    redirectUrl: url + 'INSERT TRACKING CODE HERE'
   };
 
 }, {
-  urls: ['*://www.npr.org/*'],
+  urls: ['*SITE*'],
   types: ['main_frame']
 }, ['blocking']);

@@ -1,21 +1,21 @@
 {
-  "name": "NPR FOOD PINTEREST LINK",
+  "name": "TRACKING CODE APPENDER",
   "version": "1",
   "manifest_version": 2,
-  "description": "Adds tracking code for NPR Food and Pinterest",
+  "description": "Appends tracking codes and copies urls to clipboard",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://npr.org/*",
-    "*://www.npr.org/*"
+    "*://SITE*",
+    "*SITE*"
   ],
   "background": { 
     "scripts": ["background.js"]
   },
   "content_scripts": [{
     "matches": [
-      "*://npr.org/*",
-      "*://www.npr.org/*"
+      "*://SITE*",
+      "*://SITE/*"
     ],
     "css": ["content.css"],
     "run_at": "document_end"

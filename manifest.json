@@ -3,12 +3,7 @@
   "version": "1",
   "manifest_version": 2,
   "description": "Adds tracking code for NPR Food and Pinterest",
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "*://npr.org/*",
-    "*://www.npr.org/*"
-  ],
+
   "background": { 
     "scripts": ["background.js"]
   },

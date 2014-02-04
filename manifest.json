@@ -6,13 +6,5 @@
 
   "background": { 
     "scripts": ["background.js"]
-  },
-  "content_scripts": [{
-    "matches": [
-      "*://npr.org/*",
-      "*://www.npr.org/*"
-    ],
-    "css": ["content.css"],
-    "run_at": "document_end"
-  }]
+  }
 }

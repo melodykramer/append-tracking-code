@@ -7,7 +7,4 @@ chrome.webRequest.onBeforeRequest.addListener(function(info) {
     redirectUrl: url + 'utm_medium=pinterest&utm_source=nprfood&utm_campaign=arts'
   };
 
-}, {
-  urls: ['*://npr.org/*', '*://www.npr.org/*'],
-  types: ['main_frame']
-}, ['blocking']);
+}
